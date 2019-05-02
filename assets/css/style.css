@@ -1,7 +1,4 @@
 /* Comment system */
-.comments-box {
-    margin: 10px auto;
-}
 ul.timeline-comments {
     margin: 0px;
     padding: 0px;
@@ -117,7 +114,7 @@ ul.timeline-comments li > ul > li:first-child > .timeline-comment-wrapper > .tim
     vertical-align: middle;
 }
 .timeline-comment-header .timeline-comment-author img {
-    width: 24px;
+    width: 32px;
     background: #fff;
     border-radius: 50%;
     border: 1px solid #ebedf2;
@@ -127,14 +124,13 @@ ul.timeline-comments li > ul > li:first-child > .timeline-comment-wrapper > .tim
     margin: 0 0 0 5px;
     display: inline-block;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
-    text-transform: capitalize;
 }
 .timeline-comment-header .comment-date {
     display: inline-block;
     vertical-align: middle;
-    font-size: 11px;
+    font-size: 14px;
     color: #bbb;
     margin-left: 5px;
 }
@@ -142,7 +138,7 @@ ul.timeline-comments li > ul > li:first-child > .timeline-comment-wrapper > .tim
     padding: 15px;
 }
 .timeline-comment-body p {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .timeline-comment-footer {
